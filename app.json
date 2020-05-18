@@ -1,6 +1,7 @@
 {
   "name": "sample-node-app",
   "scripts": {
+    "postdeploy": "npm test"
   },
   "formation": {
     "web": {
